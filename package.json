@@ -1,0 +1,35 @@
+{
+  "name": "@modern-mean/express-routes",
+  "description": "List express routes on a router.  Middleware for adding OPTIONS Http request to list routes on a router",
+  "version": "0.0.0",
+  "author": "Andrew Throener",
+  "main": "dist/index.js",
+  "keywords": [
+    "express",
+    "routes",
+    "list",
+    "get",
+    "middleware",
+    "options"
+  ],
+  "nyc": {
+    "sourceMap": false,
+    "instrument": false,
+    "include": [
+      "src/**/*.js"
+    ],
+    "exclude": [
+      "tests/**/*"
+    ],
+    "all": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:trainerbill/express-routes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/trainerbill/express-routes/issues"
+  },
+  "homepage": "https://github.com/trainerbill/express-routes#readme",
+  "license": "Apache-2.0"
+}
